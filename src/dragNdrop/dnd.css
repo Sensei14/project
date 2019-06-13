@@ -1,0 +1,31 @@
+.item {
+  display: block;
+  border: 1px black solid;
+  margin: 20px auto;
+  width: 250px;
+  padding: 12px;
+}
+
+.target {
+  border: 1px black solid;
+  display: block;
+  height: 300px;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.lista {
+  border: 1px black solid;
+  display: block;
+  min-height: 300px;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.lista2 {
+  border: 3px red solid;
+  display: block;
+  min-height: 300px;
+  width: 400px;
+  margin: 20px auto;
+}
