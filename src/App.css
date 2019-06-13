@@ -2,4 +2,28 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  background-color: rgb(21, 27, 63);
+  display: grid;
+  grid-template-areas:
+    "n n n n n n n n n n n n"
+    "c c c c c c c c c c c c"
+    "f f f f f f f f f f f f";
+}
+
+.navbar {
+  grid-area: n;
+  height: 8vh;
+  padding: 10px;
+}
+
+.content {
+  grid-area: c;
+  min-height: 80vh;
+  padding: 20px;
+}
+
+.footer {
+  grid-area: f;
+  background-color: red;
+  padding: 10px;
 }
