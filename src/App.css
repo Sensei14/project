@@ -8,22 +8,38 @@
     "n n n n n n n n n n n n"
     "c c c c c c c c c c c c"
     "f f f f f f f f f f f f";
+  height: 100vh;
 }
 
 .navbar {
   grid-area: n;
-  height: 8vh;
-  padding: 10px;
+  min-height: 7vh;
+  background-color: black;
+  width: 100%;
+}
+
+.active-nav {
+  color: yellow;
+}
+
+.nav-link {
+  margin-left: 20px;
+}
+
+.nav-link:focus {
+  outline: none;
 }
 
 .content {
   grid-area: c;
   min-height: 80vh;
   padding: 20px;
+  color: yellow;
 }
 
 .footer {
   grid-area: f;
-  background-color: red;
+  background-color: #111;
   padding: 10px;
+  color: whitesmoke;
 }

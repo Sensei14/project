@@ -1,0 +1,25 @@
+.store {
+  display: flex;
+}
+
+.character-eq-shop {
+  margin-right: 5%;
+  border: 1px yellow solid;
+  padding: 10px;
+}
+
+.shop-inventory {
+  margin-left: auto;
+  border: 1px green solid;
+  margin-top: 50px;
+  padding: 5px;
+  width: 384px;
+  height: 250px;
+  text-align: left;
+}
+
+.shop {
+  margin-right: auto;
+  border: 1px orange solid;
+  height: 100%;
+}

@@ -1,0 +1,98 @@
+.character {
+  color: white;
+  display: flex;
+}
+
+.character-stats {
+  border: 1px red solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto;
+  text-align: left;
+}
+
+.character-stats ul {
+  list-style-type: none;
+  display: block;
+  margin: 10px 30px 5px 0;
+  width: 100%;
+}
+
+.character-stats li {
+  display: block;
+  padding: 5px;
+  margin: 2px 0;
+  width: 100%;
+}
+
+.character-stats span {
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  border-bottom: 1px #a2a solid;
+  display: block;
+}
+
+.character-eq {
+  border: 1px yellow solid;
+  padding: 10px;
+  margin: auto;
+}
+
+.equipment {
+  border: 1px red solid;
+  display: grid;
+  grid-template-areas:
+    ". . . . . helm helm . . . . ."
+    ".  weap weap . . armor armor . . shield shield .."
+    ". . . . . boots boots . . . . . ";
+  padding: 20px;
+  grid-gap: 8px;
+}
+.inventory {
+  border: 1px green solid;
+  margin-top: 50px;
+  padding: 5px;
+  width: 384px;
+  height: 250px;
+  text-align: left;
+}
+
+.helmet {
+  grid-area: helm;
+  width: 64px;
+  height: 64px;
+  border: 1px white solid;
+}
+.weapon {
+  grid-area: weap;
+  width: 64px;
+  height: 64px;
+  border: 1px white solid;
+}
+
+.armor {
+  grid-area: armor;
+
+  width: 64px;
+  height: 64px;
+  border: 1px white solid;
+}
+
+.shield {
+  grid-area: shield;
+
+  width: 64px;
+  height: 64px;
+  border: 1px white solid;
+}
+
+.boots {
+  grid-area: boots;
+
+  width: 64px;
+  height: 64px;
+  border: 1px white solid;
+}

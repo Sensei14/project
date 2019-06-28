@@ -1,0 +1,45 @@
+.register {
+  text-align: center;
+  background-color: rgb(21, 27, 63);
+  color: rgb(63, 75, 148);
+  color: yellow;
+  font-size: 18px;
+  height: 100vh;
+  padding: 50px;
+}
+
+.form-div {
+  padding: 15px;
+  color: white;
+}
+
+.register input {
+  margin: 5px auto;
+  border-radius: 7px;
+  display: block;
+}
+
+.register button {
+  border-radius: 5px;
+  font-size: 21px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #000000;
+  border: 1px white solid;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.register button:hover {
+  background-color: #333;
+}
+
+.alert {
+  margin: 10px;
+}
+
+.alert a {
+  text-decoration: none;
+}
